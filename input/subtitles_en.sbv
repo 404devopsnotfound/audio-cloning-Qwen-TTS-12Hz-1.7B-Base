@@ -1,0 +1,367 @@
+0:00:00.031,0:00:03.511
+Hello everyone, how are you?
+Today I'm going to bring you a video showing how
+
+0:00:04.011,0:00:07.551
+install VSCode.
+For those who code on the machine and such, use the
+
+0:00:08.051,0:00:10.891
+Linux to do this
+software development,
+
+0:00:11.031,0:00:14.451
+be it Java, Node, PHP,
+whatever language it is,
+
+0:00:14.991,0:00:18.471
+It's interesting to have VSCode.
+I like VSCode.
+
+0:00:18.951,0:00:22.791
+Other people use other software,
+but VSCode I
+
+0:00:23.291,0:00:26.276
+I think he's pretty cool.
+It is very useful, works well.
+
+0:00:26.476,0:00:29.896
+I'm here with Ubuntu 24.04,
+I will show you
+
+0:00:30.396,0:00:34.476
+how do I download VSCode
+and install it on Ubuntu.
+
+0:00:45.316,0:00:48.556
+So let's look for him here
+on Google, VSCode.
+
+0:00:49.056,0:00:50.996
+Go to the official VSCode website,
+I click on download here.
+
+0:00:52.107,0:00:55.827
+Then he's already appearing here for me
+Windows options,
+
+0:00:56.267,0:01:00.027
+Linux and Mac. Okay.
+As I'm on Ubuntu,
+
+0:01:00.447,0:01:04.087
+I'll download a .deb .
+What are these options here? The .deb would be
+
+0:01:04.587,0:01:07.727
+for Debian and Ubuntu, okay?
+For these versions that are based on it,
+
+0:01:07.827,0:01:11.387
+Mint and such.
+The .rpm , Red Hat, Fedora, SUSE.
+
+0:01:11.607,0:01:15.167
+.tar.gz is the source.
+And Snap is like a... like it's a Snap
+
+0:01:15.667,0:01:18.967
+Store, as if it were a Marketplace.
+Something like this, so you understand, to make it easier.
+
+0:01:19.040,0:01:22.620
+But let's download our .deb .
+And here is the architecture,
+
+0:01:22.720,0:01:26.440
+okay? So let's download the .deb for x64.
+
+0:01:26.580,0:01:31.180
+I downloaded it here. VSCode.
+There you have the code .deb file.
+
+0:01:31.220,0:01:34.540
+Now, how do I install our VSCode here?
+I come here to
+
+0:01:35.040,0:01:38.220
+the shell. Then I'll do a "sudo" to
+I have root permission to
+
+0:01:38.720,0:01:42.140
+be able to install this package. I give a "dpkg",
+what is the command to be able to do
+
+0:01:42.640,0:01:46.327
+installing our VSCode .deb.
+"-i", which is the
+
+0:01:46.827,0:01:50.507
+parameter to tell me what I want to install.
+Then I give Downloads/code, which is
+
+0:01:51.007,0:01:52.527
+the name of the file I downloaded.
+I press "Enter".
+
+0:01:54.327,0:01:58.247
+It will get the .deb as if it were an .exe,
+a file
+
+0:01:58.747,0:02:02.327
+binary. He's going to sue this guy
+and will do the installation. If he
+
+0:02:02.827,0:02:05.967
+there is a dependency error,
+it will notify us on the screen and we will
+
+0:02:06.467,0:02:09.807
+having to fix this dependency error
+to be able to continue.
+
+0:02:10.607,0:02:14.196
+If he can do it all alone,
+there won't be any error. He is
+
+0:02:14.696,0:02:17.896
+asking for installation here,
+if I would like to use a repository.
+
+0:02:18.116,0:02:21.036
+It has a repository, it's cool,
+let's use the repository.
+
+0:02:21.796,0:02:23.456
+Yes, it's been a while since
+I didn't install VSCode.
+
+0:02:26.216,0:02:30.176
+Okay, let me see if he put it
+the repository right here.
+
+0:02:31.396,0:02:34.616
+Or if he just gave the message
+to give it a go there.
+
+0:02:35.316,0:02:37.276
+Let's see what he did here.
+
+0:02:39.787,0:02:43.067
+It's been a while since I
+installed VSCode,
+
+0:02:43.567,0:02:47.347
+he put it there man, cool, it's there,
+this line that
+
+0:02:47.847,0:02:50.667
+he put it here, it's really cool,
+he already puts it on automatic man,
+
+0:02:50.907,0:02:54.187
+very cool, you had to do everything by hand here,
+OK, here he puts it
+
+0:02:54.687,0:02:57.307
+the deb, the architecture and places where
+that he has,
+
+0:02:57.527,0:03:01.227
+he will catch,
+when you want to update VSCode now,
+
+0:03:01.487,0:03:04.607
+this is really cool,
+I was surprised,
+
+0:03:04.727,0:03:08.473
+I didn't know they had improved that.
+I give one
+
+0:03:08.973,0:03:12.433
+update here,
+it will update all repositories
+
+0:03:12.933,0:03:16.553
+software that I have already installed.
+And if I upgrade here, assuming that this
+
+0:03:17.053,0:03:20.493
+is a new version of VSCode,
+leave it closed, the software,
+
+0:03:20.813,0:03:23.813
+close VSCode,
+give an update and you give an upgrade.
+
+0:03:24.522,0:03:27.662
+He will get the last packages,
+he's not catching it even here
+
+0:03:28.162,0:03:30.642
+VSCode is picking up other things,
+but it's the same thing.
+
+0:03:31.142,0:03:34.622
+You give it an upgrade and it will update
+the package list, like here
+
+0:03:35.122,0:03:38.202
+that he updated the VSCode ones,
+These are these guys here from Microsoft.
+
+0:03:38.542,0:03:41.902
+It updates this list of packages and here
+
+0:03:42.402,0:03:46.123
+with the upgrade, it downloads the new packages, okay?
+If you
+
+0:03:46.623,0:03:49.623
+need to update VSCode later, that's how it is.
+So now,
+
+0:03:50.223,0:03:53.563
+Let's open VSCode. Let's see it working.
+I click here
+
+0:03:54.063,0:03:57.643
+Below, show applications.
+I will type
+
+0:03:58.143,0:04:00.403
+up here. VSCode.
+There's the guy.
+
+0:04:02.643,0:04:04.683
+Okay, it's running.
+
+0:04:05.917,0:04:10.017
+It works just like Windows, okay? It's the same thing.
+You can install the
+
+0:04:10.517,0:04:13.457
+plugins, right?
+You can come here and manage it,
+
+0:04:13.577,0:04:17.197
+put plugins.
+For those who use Git, right?
+
+0:04:17.537,0:04:20.877
+Just like me, I work with DevOps, right?
+So I use it too,
+
+0:04:21.377,0:04:24.585
+I like him.
+For those who use git, you can commit
+
+0:04:25.085,0:04:28.685
+around here and such,
+You can add your projects and commit now
+
+0:04:29.185,0:04:33.765
+Here you can add plugins to see
+
+0:04:34.265,0:04:38.325
+the shape of your project, to be able to see
+your project better, to become more
+
+0:04:38.825,0:04:42.725
+visually interesting,
+so it works the same as
+
+0:04:43.225,0:04:46.565
+Windows, it's the same thing, cool.
+Another thing I want to show you is
+
+0:04:47.065,0:04:50.045
+seeing that it is running, and there is a little red ball here,
+Why is it running?
+
+0:04:50.545,0:04:53.968
+if I close it here,
+he will disappear from the bar
+
+0:04:54.468,0:04:58.008
+here, it disappeared, so I want to leave it fixed
+here on the side supposing, I want to leave
+
+0:04:58.508,0:05:02.268
+he fixed it like I left Discord there,
+OK then I open it again
+
+0:05:02.768,0:05:06.988
+VSCode, I run it
+
+0:05:07.488,0:05:10.848
+VSCode, open it and it's here
+
+0:05:11.348,0:05:14.528
+I want to leave it fixed,
+Right click on the pin icon
+
+0:05:15.028,0:05:18.728
+so he has the red ball,
+it is there running now if I close it
+
+0:05:19.228,0:05:22.485
+he's here he's still there, so what
+
+0:05:22.985,0:05:26.985
+I can come here and drag this guy,
+put it wherever I want, cool
+
+0:05:27.485,0:05:31.565
+so the next time I want to run it again,
+I can or run
+
+0:05:32.065,0:05:35.765
+him here, or I can come
+and call him here directly
+
+0:05:36.265,0:05:39.765
+in the bar, I can click on the live bar,
+it will work the same
+
+0:05:40.265,0:05:44.245
+So you don't need to come down there
+and look for it to execute it directly
+
+0:05:44.399,0:05:47.619
+So, this is the video I wanted to bring you today.
+It's very easy,
+
+0:05:47.699,0:05:50.899
+This installation is much easier
+than it was before.
+
+0:05:51.199,0:05:53.659
+I enjoyed it too much. It's the video I wanted to bring today,
+how do you install the
+
+0:05:54.159,0:05:57.379
+VSCode, because I needed to use it, okay?
+Because I have things to do
+
+0:05:57.879,0:06:01.279
+also. On my desktop here,
+I have things
+
+0:06:01.779,0:06:05.280
+channel to upload to Git.
+Thank you to everyone who has watched this far. We're together.
+
+0:06:05.440,0:06:08.780
+Subscribe to the channel, share
+and enjoy our content there.
+
+0:06:09.280,0:06:12.940
+I will be bringing more content,
+more interesting now about the
+
+0:06:13.440,0:06:16.500
+DevOps area and such. It's going to be really cool.
+Hug. Stay safe.

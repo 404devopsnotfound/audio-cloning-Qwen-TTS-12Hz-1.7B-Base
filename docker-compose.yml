@@ -1,0 +1,25 @@
+services:
+  qwen-tts-dubber:
+    build: .
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - REF_AUDIO=/app/input/reference_en_us.mp3
+      - SRT_FILE=/app/input/subtitles_en.sbv
+      - OUTPUT_DIR=/app/output
+      - CHUNK_DURATION=60
+      - PARALLEL_WORKERS=1
+      - USE_GPU=true
+      - TARGET_SAMPLE_RATE=24000
+      - TTS_SPEED=1.0
+      - QWEN_MODEL=Qwen/Qwen3-TTS-12Hz-1.7B-Base
+      - REF_TEXT=This is a native American voice sample from California. I am speaking with a clear, standard US accent for this audio project.
+    volumes:
+      - ./input:/app/input:ro
+      - ./output:/app/output
+      - ./temp:/app/temp
+      - ~/.cache/huggingface:/root/.cache/huggingface
+    shm_size: "6g"
+    working_dir: /app
+    network_mode: host
+    command: python clone_sync.py
