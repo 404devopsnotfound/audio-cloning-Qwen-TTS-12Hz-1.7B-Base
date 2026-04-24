@@ -1,3 +1,24 @@
+
+O projeto utiliza a tecnologia mais recente da família Qwen3-TTS, desenvolvida pelo time da Alibaba Cloud (Qwen). Aqui estão os detalhes técnicos:
+
+    Modelo Principal (Dublagem/Clonagem) Nome: Qwen3-TTS-12Hz-1.7B-Base Versão: 1.7 bilhões de parâmetros (Base). Taxa de Amostragem Interna: 12Hz (Tokens de áudio). Função: Este é o modelo que faz a clonagem da voz e a geração das falas baseadas nas suas legendas.
+
+    Modelo de Design (Criação da Voz Americana) Nome: Qwen3-TTS-12Hz-1.7B-VoiceDesign Função: Usamos este modelo específico para "desenhar" a voz profissional americana nativa a partir de descrições em texto.
+
+    Bibliotecas e Dependências Framework: PyTorch (com suporte a CUDA/GPU). Transformers: Versão 4.57.6 (conforme definido no seu Dockerfile). Processamento de Áudio: ffmpeg para sincronização de tempo e soundfile para escrita de arquivos.
+
+    Características do Modelo Zero-Shot Voice Cloning: Consegue clonar uma voz com apenas 3 a 10 segundos de áudio de referência. 
+
+Cross-Lingual: Suporta a geração de sotaques diferentes do áudio original (como fizemos ao transformar sua referência em inglês americano).
+Sincronização: O modelo trabalha com uma arquitetura de tokens de áudio discretos, o que permite um controle muito preciso do tempo de fala. 
+
+
+
+
+Este projeto foi criado para possibilitar a clonagem de áudio em on-premises utilizando amostragem de voz, com o objetivo de traduzir os vídeos do youtube.
+Terá como áudio fonte o português, e a tradução será realizada para o inglês e espanhol.
+
+
 # 🎙️ Qwen3-TTS Audio Cloning & Sync
 
 Este projeto representa o estado da arte em clonagem de voz (Zero-Shot) e sincronização automática de dublagem, utilizando a poderosa arquitetura **Qwen3-TTS** da Alibaba Cloud.
